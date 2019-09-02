@@ -23,8 +23,8 @@ public class TestPolym{ //多态要有继承，重写
 
 }
 
-class Animal{
-	public void shout() {
+class Animal{  //父类加final，不能被子类继承了（class final Animal）
+	public void shout() {   //父类方法钱加final，子类不能重写了（public final void shout() ）
 		System.out.println("叫了一声！");
 	}
 }
